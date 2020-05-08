@@ -38,16 +38,12 @@ p{
    border: black solid;
    margin: 10px 10px;
 }
-.texto  {
+.texto {
     background-color: cadetblue;
     border: black solid;
     font-size: medium;
     height: fit-content;
     margin: 1% 25%;
     display: inline-block;
-
     
-}
-.contacto div {
-    background: black;
 }
