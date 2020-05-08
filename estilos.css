@@ -1,0 +1,49 @@
+h3
+{
+    color: blue;
+}
+h1
+{
+    color: crimson;
+}
+body{
+    background-color: lightblue;
+    
+}
+p{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.redes h2{
+
+    font-size: medium;
+    font-weight: bold;
+    font-family: cursive;  
+    color: steelblue;
+}
+
+.Conocimientos {
+    background-color: cadetblue;
+    width: 20%;
+    display: inline-block;
+   
+   border: black solid;
+   margin: 10px 10px;
+}
+.Aptitudes {
+    background-color: cadetblue;
+    width: 20%;
+    display: inline-block;
+   border: black solid;
+   margin: 10px 10px;
+}
+.texto {
+    background-color: cadetblue;
+    border: black solid;
+    font-size: medium;
+    height: 90px;
+    margin: 1% 25%;
+    display: inline-block;
+    
+}
