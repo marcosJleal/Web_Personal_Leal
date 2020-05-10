@@ -59,22 +59,22 @@
         <li> <a href="https://www.linkedin.com/in/marcos-leal-7874ab108/" > <img src="imagenes/linkedin.png" alt="linkedin" width="40" height="40"></a></li>
     </ul>
     </div>
-   
+   <form action=" " name="formulario" method="GET"></form>
     <div>
-        <label for="">Nombre   </label><input type="text">
+        <label for="">Nombre   </label><input type="text" required name="nombre" id="nombre" >
         
     </div>
    <div>
-    <label for="">Mail</label>        <input type="text">
+    <label for="">Mail</label>        <input type="text" required name="mail" id="mail" >
    </div>
    
  <div>
-    <label for="">Mensaje</label> 
+    <label for="">Mensaje</label > 
 
  </div>
-   <div><textarea name="" id="" cols="30" rows="5"></textarea></div>
+   <div><textarea name="mensaje" required id="mensaje" cols="30" rows="5" ></textarea></div>
  <div>
-    <button onclick="enviar()">Enviar</button>
+    <button onclick="enviar()" >Enviar</button>
  </div>
 </body>
 </html>
