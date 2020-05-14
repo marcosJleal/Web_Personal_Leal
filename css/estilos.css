@@ -7,7 +7,7 @@ h1
     color: crimson;
 }
 body{
-    background-color: lightblue;
+    background:#04B8BB ;
     
 }
 p{
@@ -20,24 +20,27 @@ p{
     font-size: medium;
     font-weight: bold;
     font-family: cursive;  
-    color: steelblue;
+    color: #000;
 }
 
 .Conocimientos {
     background-color: cadetblue;
     width: 20%;
     display: inline-block;
-   
+   padding: 0;
    border: black solid;
-   margin: 10px 10px;
+   margin: 0x 10px;
 }
+
 .Aptitudes {
     background-color: cadetblue;
     width: 20%;
     display: inline-block;
    border: black solid;
-   margin: 10px 10px;
+   margin: 0px 10px;
+   padding: 0;
 }
+
 .texto {
     background-color: cadetblue;
     border: black solid;
@@ -47,3 +50,87 @@ p{
     display: inline-block;
     
 }
+
+a:hover {
+          text-decoration: underline;
+
+}
+
+a:visited{
+    color: purple;
+}
+
+.imagen img {
+        height:auto ;
+        width:500px;
+       
+            border-radius: 50%;
+}
+
+.imagen div{
+            background-color: #ccc;
+            width:100% ;
+            border-radius: 10px;
+            
+
+}
+
+.menu {
+    background: #ccc;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+
+}
+.menu li{
+    display: inline-block;   
+}
+.menu li a {
+padding: 10px 20px;
+    display: inline-block;
+    color: #04B8BB;
+}
+.menu li a:hover {
+    background: #686868;
+    color: #fff;
+
+}
+
+form{
+    border:1px solid #000 ;
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+}
+
+form label{
+    display: block;
+    font-size: 12px;
+}
+input,textarea,button{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+textarea{
+    resize: vertical;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+input:focus,textarea:focus{
+    border: 1px solid #000;
+}
+
+button:hover{
+background: #ccc;
+color: white;    
+cursor: pointer;
+}
+
+
+
+

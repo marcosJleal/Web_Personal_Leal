@@ -6,17 +6,26 @@
     <title>Marcos Leal</title>
     <link rel="stylesheet" href="css/estilos.css">
     <script src="js/funciones.js"></script>
+    <h1 style="text-align: center;">Desarrollador de Software</h1>
+
+    <ul class="menu">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Galeria</a></li>
+        <li><a href="">Contacto</a></li>
+    </ul>
 </head>
-<h1 style="text-align: center;">Desarrollador de Software</h1>
+
 <body>
     
     
      
         
             <p>
-                <div align=center>
-                <img src="https://scontent.faep4-1.fna.fbcdn.net/v/t1.0-9/p720x720/95825961_3166758646675918_3741112249360580608_o.jpg?_nc_cat=111&_nc_sid=dd7718&_nc_ohc=BM9MfIM4U-MAX-dS5XV&_nc_ht=scontent.faep4-1.fna&_nc_tp=6&oh=9e87179e45457d1fd2d36ba4168fc86a&oe=5ED4D873" width="350" height="400" alt="Imagen"  >
-                
+
+                <div class="imagen">
+                    <div>
+                <img src="https://scontent.faep4-1.fna.fbcdn.net/v/t1.0-9/p720x720/95825961_3166758646675918_3741112249360580608_o.jpg?_nc_cat=111&_nc_sid=dd7718&_nc_ohc=BM9MfIM4U-MAX-dS5XV&_nc_ht=scontent.faep4-1.fna&_nc_tp=6&oh=9e87179e45457d1fd2d36ba4168fc86a&oe=5ED4D873"  alt="Imagen"  >               
+            </div>    
             </div>
     <div class="texto">
             
@@ -32,24 +41,28 @@
 
 
 <div class="Conocimientos">
+   <ul>
     <div>Conocimientos:</div>
-    <div>*C++</div>
-    <div>*.Net Framework</div>
-    <div>*SQL Server</div>
-    <div>*HTML</div>
-    <div>*CSS</div>
-    <div>*JavaScript</div>
-    <div>*Ingles avanzado</div>
+       <li>C++</li>
+       <li>.Net Framework</li>
+       <li>SQL Server</li>
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>JavaScript</li>
+       <li>Ingles avanzado</li>
+   </ul>
 </div>
 <div class="Aptitudes">
-    <div >Aptitudes: </div>
-    <div>*ProActivo</div>
-    <div>*Trabajo en equipo</div>
-    <div>*Creatividad</div>
-    <div>*Iniciativa</div>
-    <div>*Adaptabilidad</div>
-    <div>*Motivación</div>
-    <div>*Capacitador</div>
+    <ul>
+        <div >Aptitudes: </div>
+           <li>ProActivo</li>
+           <li>Trabajo en equipo</li>
+           <li>Creatividad</li>
+           <li>Iniciativa</li>
+           <li>Adaptabilidad</li>
+           <li>Motivación</li>
+           <li>Capacitador</li>
+       </ul>
 </div>
 
 <div class="redes">
@@ -59,22 +72,13 @@
         <li> <a href="https://www.linkedin.com/in/marcos-leal-7874ab108/" > <img src="imagenes/linkedin.png" alt="linkedin" width="40" height="40"></a></li>
     </ul>
     </div>
-   <form action=" " name="formulario" method="GET"></form>
-    <div>
-        <label for="">Nombre   </label><input type="text" required name="nombre" id="nombre" >
-        
-    </div>
-   <div>
-    <label for="">Mail</label>        <input type="text" required name="mail" id="mail" >
-   </div>
-   
- <div>
+   <form action=" " name="formulario" method="GET">   
+        <label for="">Nombre   </label><input type="text" required name="nombre" id="nombre" placeholder="Escribe tu nombre" >
+    <label for="">Mail</label>        <input type="text" required name="mail" id="mail" placeholder="Escribe tu mail">
     <label for="">Mensaje</label > 
-
- </div>
-   <div><textarea name="mensaje" required id="mensaje" cols="30" rows="5" ></textarea></div>
- <div>
+    <textarea name="mensaje" required id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje"></textarea>
     <button onclick="enviar()" >Enviar</button>
- </div>
+ 
+</form>
 </body>
 </html>
