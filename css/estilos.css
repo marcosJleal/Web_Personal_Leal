@@ -15,39 +15,50 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-.redes h2{
-
-    font-size: medium;
+.redes h2,.contacto{
+padding-top: 20px;
+margin-left: 20px;
+    font-size: 30px;
     font-weight: bold;
     font-family: cursive;  
     color: #000;
+}
+.redes ul {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .Conocimientos {
     background-color: cadetblue;
     width: 20%;
-    display: inline-block;
+  display: inline-block;
    padding: 0;
    border: black solid;
-   margin: 0x 10px;
+ font-size: 20px;
 }
 
 .Aptitudes {
     background-color: cadetblue;
     width: 20%;
-    display: inline-block;
+   display: inline-block;
    border: black solid;
-   margin: 0px 10px;
+   font-size: 20px;
    padding: 0;
 }
 
 .texto {
     background-color: cadetblue;
-    border: black solid;
-    font-size: medium;
+    border: solid rgb(7, 0, 0);
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
     height: fit-content;
-    margin: 1% 25%;
+    width: 40%;
+    height: auto;
+    margin: 100px 0 200px 100px;
     display: inline-block;
+
+   
+   
     
 }
 
@@ -65,13 +76,14 @@ a:visited{
         width:500px;
        
             border-radius: 50%;
+            float: left;
+          
 }
 
 .imagen div{
-            background-color: #ccc;
+            background: #ccc;
             width:100% ;
             border-radius: 10px;
-            
 
 }
 
@@ -103,6 +115,7 @@ form{
     width: 25%;
     margin: 20px;
     padding: 20px;
+    border-radius: 5px;
 }
 
 form label{
